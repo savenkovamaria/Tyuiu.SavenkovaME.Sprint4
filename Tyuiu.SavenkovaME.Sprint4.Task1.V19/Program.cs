@@ -49,8 +49,27 @@ namespace Tyuiu.SavenkovaME.Sprint4.Task1.V19
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                   *");
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("Сумма четных элементов массива = " + res);
-
+            int count = 0;
+            for (int i = 0; i <= num.Length-1; i++)
+            {
+                if (num[i]>=2 && num[i]<=9)
+                {
+                    count++;
+                }
+                else
+                {
+                    count = 0;
+                }
+            }
+            if (count == len)
+            {
+                Console.WriteLine("Сумма четных элементов массива = " + res);
+            }
+            else
+            {
+                Console.WriteLine("Неверное значение ");
+            }
+            
             Console.ReadKey();
         }
     }
