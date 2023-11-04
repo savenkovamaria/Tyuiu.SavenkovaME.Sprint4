@@ -28,10 +28,13 @@ namespace Tyuiu.SavenkovaME.Sprint4.Task1.V19
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                             *");
             Console.WriteLine("********************************************************************************");
-            
-            int len = 12;
+
+            int len;
+            Console.Write("Введите количество элементов массива: ");
+            len = Convert.ToInt32(Console.ReadLine());
+
             int[] num = new int[len];
-            Console.WriteLine("Длину массива = " + len);
+
             for (int i = 0; i <= num.Length-1; i++)
             {
                 Console.WriteLine("Введите значение " + i + " элемента: ");
