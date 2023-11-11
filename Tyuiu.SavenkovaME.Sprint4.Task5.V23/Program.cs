@@ -38,7 +38,7 @@ namespace Tyuiu.SavenkovaME.Sprint4.Task5.V23
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    matrix[i, j] = rnd.Next(-4, 8);
+                    matrix[i, j] = rnd.Next(-4, 9);
                 }
             }
             Console.WriteLine("Массив:");
