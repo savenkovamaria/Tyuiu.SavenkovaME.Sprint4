@@ -34,7 +34,7 @@ namespace Tyuiu.SavenkovaME.Sprint4.Task2.V1
             Console.WriteLine("Длина массива = "+len);
             for (int i = 0; i <= num.Length - 1; i++)
             {
-                num[i] = rnd.Next(1,9);
+                num[i] = rnd.Next(1,10);
             }
             Console.WriteLine();
             Console.WriteLine("Массив: ");
